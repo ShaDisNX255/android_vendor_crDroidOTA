@@ -1,0 +1,166 @@
+====================
+     04-18-2023
+====================
+
+   * art
+11ca1be Merge tag 'android-13.0.0_r41' into 13.0
+
+   * bionic
+92e2d39 Nullability check for mount module.
+
+   * frameworks/base
+521293bd Revert "SystemUI: Rework media art filter"
+
+   * packages/apps/Updater
+c7a1c1a Adapt for our use
+
+====================
+     04-17-2023
+====================
+
+   * android
+0e6c7a1 manifest: Track our Eleven fork
+
+   * bootable/recovery
+90caf5e Merge 'lineage-20.0' into 13.0
+
+   * build/make
+fe0dfae Merge 'lineage-20.0' into 13.0
+
+   * external/e2fsprogs
+1a20062 e2fsck: Loosen fscrypt_policy struct size check
+
+   * frameworks/av
+8341534 C2SoftMpeg4Enc: Add support for levels in mpeg4/h263 encoder
+
+   * frameworks/native
+4063e71 sf: Reset validateWasSkipped in PostCommit phase
+
+   * lineage-sdk
+03bf75d Merge 'lineage-20.0' into 13.0
+
+   * packages/apps/DeskClock
+4f45875 Merge 'lineage-20.0' into 13.0
+
+   * packages/apps/Dialer
+914a0fb Merge 'lineage-20.0' into 13.0
+
+   * packages/apps/Launcher3
+0f4e2be Merge tag 'android-13.0.0_r41' into 13.0
+
+   * packages/apps/LineageParts
+f25e069 Disable unused components
+
+   * packages/apps/Messaging
+4053a37 Fix errorprone warnings that should be errors
+
+   * packages/apps/Settings
+cc31094 Settings: Add a toggle to force LTE_CA [1/2]
+
+   * packages/apps/SetupWizard
+89d1e14 Move navigation settings to the end
+
+   * packages/apps/Updater
+afe29f2 New Crowdin updates (#54)
+
+   * packages/apps/crDroidSettings
+651ba83 crdroid: Add a toggle to force LTE_CA [2/2]
+
+   * packages/modules/Wifi
+a93b8e2 Merge 'lineage-20.0' into 13.0
+
+   * packages/services/Telecomm
+a41e9a2 Merge 'lineage-20.0' into 13.0
+
+   * system/core
+4d172f4 flattened apex: fix clatd mode also for inprocess tethering
+
+   * system/sepolicy
+a8c54a4 Merge 'lineage-20.0' into 13.0
+
+   * vendor/lineage
+c4059ef crdroid: Bump to version 9.4
+
+====================
+     04-16-2023
+====================
+
+   * external/chromium-webview/patches
+7455e7f Update Chromium Webview to 112.0.5615.101
+
+   * external/chromium-webview/prebuilt/arm
+f451a85 Update Chromium Webview arm prebuilt to 112.0.5615.101
+
+   * external/chromium-webview/prebuilt/arm64
+ebac9db Update Chromium Webview arm64 prebuilt to 112.0.5615.101
+
+   * external/chromium-webview/prebuilt/x86
+77c3db4 Update Chromium Webview x86 prebuilt to 112.0.5615.101
+
+   * external/chromium-webview/prebuilt/x86_64
+1e7c6f7 Update Chromium Webview x86_64 prebuilt to 112.0.5615.101
+
+   * vendor/addons
+afb9d8b addons: Clean up themed icons
+
+====================
+     04-15-2023
+====================
+
+   * build/soong
+ef9a8c9 Only dexpreopt system server jars for the primary arch
+
+   * device/qcom/sepolicy_vndr-legacy-um
+e52af6e bengal: Correct sysfs_wakeup paths
+
+   * packages/apps/Eleven
+ef79d28 Eleven: Request MANAGE_EXTERNAL_STORAGE permission
+
+====================
+     04-14-2023
+====================
+
+   * kernel/configs
+02e3cb8 Add .gitupstream file
+
+   * packages/modules/Bluetooth
+957b698 Add system properties to config audio codec priority
+
+   * packages/modules/Connectivity
+32e990e Keep UID in lockdown when present in any range
+
+====================
+     04-13-2023
+====================
+
+====================
+     04-12-2023
+====================
+
+   * hardware/qcom-caf/wlan
+79ccbda wcnss-service: Remove setup_wlan_driver_ath_prop()
+
+====================
+     04-11-2023
+====================
+
+   * hardware/google/pixel
+5b75a7d Merge tag 'android-13.0.0_r41' into staging/lineage-20.0_merge-android-13.0.0_r41
+
+   * packages/providers/MediaProvider
+1cde084 Merge tag 'android-13.0.0_r41' into staging/lineage-20.0_merge-android-13.0.0_r41
+
+====================
+     04-10-2023
+====================
+
+   * packages/apps/Aperture
+a5741ab Aperture: Add toggle for FFC horizontal flip
+
+   * packages/apps/GameSpace
+626074c New Crowdin updates (#43)
+
+====================
+     04-09-2023
+====================
+

@@ -1,16 +1,16 @@
- {
+{
 	"response": [
 		{
 			"maintainer": "ShaDisNX255",
 			"oem": "Samsung",
 			"device": "Galaxy A52 4G",
-			"filename": "crDroidAndroid-13.0-20230406-a52q-v9.3.zip",
-			"download": "https://github.com/ShaDisNX255/android_vendor_crDroidOTA/releases/download/v1.0/crDroidAndroid-13.0-20230406-a52q-v9.3.zip",
-			"timestamp": ,
-			"md5": "",
-			"sha256": "",
-			"size": ,
-			"version": "9.3",
+			"filename": "crDroidAndroid-13.0-20230418-a52q-v9.4.zip",
+			"download": "https://github.com/ShaDisNX255/android_vendor_crDroidOTA/releases/download/v1.1/crDroidAndroid-13.0-20230418-a52q-v9.4.zip",
+			"timestamp": 1681826020,
+			"md5": "2265e85895d11a07956e0f4356789d30",
+			"sha256": "b18dfe9779fcf63e4e345341f9472055adee8e825e655134f2bb861fc6c5493f",
+			"size": 1197797378,
+			"version": "9.4",
 			"buildtype": "Monthly",
 			"forum": "https://forum.xda-developers.com/t/rom-13-0-encryption-unofficial-crdroid-9-3-for-galaxy-a52-4g.4572999/",
 			"gapps": "http://downloads.codefi.re/jdcteam/javelinanddart/gapps/MindTheGapps-13.0.0-arm64-20230408_162909.zip",
