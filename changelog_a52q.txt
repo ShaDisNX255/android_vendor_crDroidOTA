@@ -2,6 +2,9 @@
      04-18-2023
 ====================
 
+   * frameworks/base
+Fixing smart charging on A52
+
    * art
 11ca1be Merge tag 'android-13.0.0_r41' into 13.0
 
@@ -137,15 +140,15 @@ ef79d28 Eleven: Request MANAGE_EXTERNAL_STORAGE permission
      04-12-2023
 ====================
 
-   * hardware/qcom-caf/wlan
-79ccbda wcnss-service: Remove setup_wlan_driver_ath_prop()
-
 ====================
      04-11-2023
 ====================
 
    * hardware/google/pixel
 5b75a7d Merge tag 'android-13.0.0_r41' into staging/lineage-20.0_merge-android-13.0.0_r41
+
+   * hardware/qcom-caf/wlan
+79ccbda wcnss-service: Remove setup_wlan_driver_ath_prop()
 
    * packages/providers/MediaProvider
 1cde084 Merge tag 'android-13.0.0_r41' into staging/lineage-20.0_merge-android-13.0.0_r41
