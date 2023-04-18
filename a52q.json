@@ -1,28 +1,28 @@
 {
-        "response": [
-                {
-                        "maintainer": "ShaDisNX255",
-                        "oem": "Samsung",
-                        "device": "Galaxy A52 4G",
-                        "filename": "crDroidAndroid-13.0-20230418-a52q-v9.4.zip",
-                        "download": "https://github.com/ShaDisNX255/android_vendor_crDroidOTA/releases/download/v1.2/crDroidAndroid-13.0-20230418-a52q-v9.4.zip",
-                        "timestamp": 1681826020,
-                        "md5": "66137447bceb50cd0572cd8e4d4bbd7a",
-                        "sha256": "d9220ab32fdc3898dd510a6e97399f2a2a2f92560b3890729007f3220216d335",
-                        "size": 1197805512,
-                        "version": "9.4",
-                        "buildtype": "Monthly",
-                        "forum": "https://forum.xda-developers.com/t/rom-13-0-encryption-unofficial-crdroid-9-3-for-galaxy-a52-4g.4572999/",
-                        "gapps": "http://downloads.codefi.re/jdcteam/javelinanddart/gapps/MindTheGapps-13.0.0-arm64-20230408_162909.zip",
-                        "firmware": "",
-                        "modem": "",
-                        "bootloader": "",
-                        "recovery": "",
-                        "paypal": "https://www.paypal.com/paypalme/ShaDisNX255",
-                        "telegram": "https://t.me/ShaDisNX255",
-                        "dt": "https://github.com/ShaDisNX255/android_device_samsung_a52q",
-                        "common-dt": "https://github.com/ShaDisNX255/android_device_samsung_sm7125-common",
-                        "kernel": "https://github.com/ShaDisNX255/android_kernel_samsung_sm7125"
-                }
-        ]
+  "response": [
+    {
+        "maintainer": "ShaDisNX255",
+        "oem": "Samsung",
+        "device": "Galaxy A52 4G",
+        "filename": "crDroidAndroid-13.0-20230418-a52q-v9.4.zip",
+        "download": "https://github.com/ShaDisNX255/android_vendor_crDroidOTA/releases/download/v1.2/crDroidAndroid-13.0-20230418-a52q-v9.4.zip",
+        "timestamp": 1681826020,
+        "md5": "66137447bceb50cd0572cd8e4d4bbd7a",
+        "sha256": "d9220ab32fdc3898dd510a6e97399f2a2a2f92560b3890729007f3220216d335",
+        "size": 1197805512,
+        "version": "9.4",
+        "buildtype": "Monthly",
+        "forum": "https://forum.xda-developers.com/t/rom-13-0-encryption-unofficial-crdroid-9-3-for-galaxy-a52-4g.4572999/",
+        "gapps": "http://downloads.codefi.re/jdcteam/javelinanddart/gapps/MindTheGapps-13.0.0-arm64-20230408_162909.zip",
+        "firmware": "",
+        "modem": "",
+        "bootloader": "",
+        "recovery": "",
+        "paypal": "https://www.paypal.com/paypalme/ShaDisNX255",
+        "telegram": "https://t.me/ShaDisNX255",
+        "dt": "https://github.com/ShaDisNX255/android_device_samsung_a52q",
+        "common-dt": "https://github.com/ShaDisNX255/android_device_samsung_sm7125-common",
+        "kernel": "https://github.com/ShaDisNX255/android_kernel_samsung_sm7125"
+    }
+  ]
 }
