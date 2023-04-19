@@ -6,10 +6,10 @@
 			"device": "Galaxy A52S 5G",
 			"filename": "crDroidAndroid-13.0-20230419-a52sxq-v9.4.zip",
 			"download": "https://github.com/ShaDisNX255/android_vendor_crDroidOTA/releases/download/a52sxq-v1.0/crDroidAndroid-13.0-20230419-a52sxq-v9.4.zip",
-			"timestamp": ,
-			"md5": "",
-			"sha256": "",
-			"size": ,
+			"timestamp": 1681897635,
+			"md5": "8b29be834d00b44096e9b73f3d96b1ab",
+			"sha256": "8869951b941f98c244a601aca29d2b049d4694b3ca849af7a47bdb789f0f9294",
+			"size": 1243025079,
 			"version": "9.4",
 			"buildtype": "Monthly",
 			"forum": "https://t.me/SimonA52s_5G_devchannel",
@@ -25,4 +25,4 @@
 			"kernel": "https://github.com/ShaDisNX255/android_kernel_samsung_sm7325"
 		}
 	]
-} 
+}
