@@ -1,0 +1,28 @@
+{
+	"response": [
+		{
+			"maintainer": "ShaDisNX255",
+			"oem": "Samsung",
+			"device": "Galaxy A52S 5G",
+			"filename": "crDroidAndroid-13.0-20230419-a52sxq-v9.4.zip",
+			"download": "https://github.com/ShaDisNX255/android_vendor_crDroidOTA/releases/download/a52sxq-v1.0/crDroidAndroid-13.0-20230419-a52sxq-v9.4.zip",
+			"timestamp": ,
+			"md5": "",
+			"sha256": "",
+			"size": ,
+			"version": "9.4",
+			"buildtype": "Monthly",
+			"forum": "https://t.me/SimonA52s_5G_devchannel",
+			"gapps": "http://downloads.codefi.re/jdcteam/javelinanddart/gapps/MindTheGapps-13.0.0-arm64-20230408_162909.zip",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "https://www.paypal.com/paypalme/ShaDisNX255",
+			"telegram": "https://t.me/ShaDisNX255",
+			"dt": "https://github.com/ShaDisNX255/android_device_samsung_a52sxq",
+			"common-dt": "https://github.com/ShaDisNX255/android_device_samsung_sm7325-common",
+			"kernel": "https://github.com/ShaDisNX255/android_kernel_samsung_sm7325"
+		}
+	]
+} 
