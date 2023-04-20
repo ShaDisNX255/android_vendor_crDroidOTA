@@ -1,4 +1,12 @@
 ====================
+     04-17-2023
+====================
+
+   * a52sxq
+- Sync with Simon's latest trees
+- Fixing underdisplay fingerprint on screen-off
+
+====================
      04-19-2023
 ====================
 
