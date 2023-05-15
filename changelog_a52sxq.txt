@@ -1,4 +1,11 @@
 ====================
+     05-15-2023
+====================
+   * a52sxq
+- Sync with Simon's latest trees
+- Fix statusbar and navigation bar flickering
+
+====================
      05-05-2023
 ====================
 
@@ -146,4 +153,3 @@ ef61811 FM2: Slight design adjustments
 ====================
      04-26-2023
 ====================
-
