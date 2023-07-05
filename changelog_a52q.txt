@@ -1,149 +1,100 @@
 ====================
-     05-05-2023
+     06-30-2023
+====================
+
+   * packages/apps/Updater
+67c3c7b Adapt for our use
+
+====================
+     06-29-2023
+====================
+
+   * frameworks/base
+14213d97 Fix NPE with void android.view.VelocityTracker.clear()
+
+   * lineage-sdk
+b931bc4 Handle more custom DNS migration
+
+   * packages/apps/Settings
+3a23b9f fixup! Settings: Add switch to unlink ringtone and notifications volume [2/2]
+
+   * vendor/addons
+3824da8 addons: Update themed icons
+
+   * vendor/lineage
+12b0a10 crdroid: Bump to version 9.6
+
+====================
+     06-28-2023
 ====================
 
    * android
-6c665a7 manifest: Retire colorkt and themelib
+d81fe65 manifest: Track our new apps fork
 
-   * build/make
-62b87b9 Merge 'lineage-20.0' into 13.0
+   * packages/apps/DocumentsUI
+d9e400b DocumentsUI: Use monet colors
 
-   * external/selinux
-6869d5e Merge tag 'android-13.0.0_r43' into 13.0
+   * packages/apps/Gallery2
+b72ebfb Gallery2: Rework themes
 
-   * external/vixl
-99874e6 Merge tag 'android-13.0.0_r43' into 13.0
-
-   * frameworks/av
-4ea50bb Merge 'lineage-20.0' into 13.0
-
-   * frameworks/base
-fb76095d QRCodeScannerController: Check for google package availability
-
-   * frameworks/native
-7aba90a Merge 'lineage-20.0' into 13.0
-
-   * lineage-sdk
-54078f4 Merge 'lineage-20.0' into 13.0
-
-   * packages/apps/Backgrounds
-6d42434 Merge 'lineage-20.0' into 13.0
-
-   * packages/apps/Contacts
-92e1d5a Merge 'lineage-20.0' into 13.0
-
-   * packages/apps/DeskClock
-aac3d69 Merge 'lineage-20.0' into 13.0
-
-   * packages/apps/Dialer
-323552d Merge 'lineage-20.0' into 13.0
-
-   * packages/apps/Eleven
-a516757 Merge 'lineage-20.0' into 13.0
-
-   * packages/apps/LineageParts
-d36a669 Merge 'lineage-20.0' into 13.0
-
-   * packages/apps/Messaging
-edb8e27 Merge 'lineage-20.0' into 13.0
-
-   * packages/apps/Settings
-78a37c0 Merge 'lineage-20.0' into 13.0
-
-   * packages/apps/SetupWizard
-7826df0 Merge 'lineage-20.0' into 13.0
-
-   * packages/apps/ThemePicker
-84d5ba3 Merge 'lineage-20.0' into 13.0
-
-   * packages/apps/Updater
-a38075e Adapt for our use
-f07b22e New Crowdin updates (#54)
-
-   * packages/inputmethods/LatinIME
-02517f6 Merge 'lineage-20.0' into 13.0
-
-   * packages/services/Telecomm
-d268335 Merge 'lineage-20.0' into 13.0
-
-   * vendor/lineage
-c21e609 crdroid: Bump to version 9.5
-
-====================
-     05-04-2023
-====================
-
-   * hardware/qcom-caf/msm8953/audio
-07ed74d audio-hal: AudioEffect reply overflow
-
-====================
-     05-03-2023
-====================
-
-   * packages/apps/Aperture
-4f4f41a Revert "Aperture: Set video framerate button enabled only on one place"
-
-====================
-     05-02-2023
-====================
-
-   * hardware/qcom-caf/msm8996/audio
-7c22b52 audio-hal: AudioEffect reply overflow
+   * packages/apps/Jelly
+950988c Jelly: M3
 
    * packages/apps/crDroidSettings
-43a15ab crDroid Settings: Add our build server host
-
-   * packages/modules/Bluetooth
-ec322f2 Merge tag 'android-13.0.0_r43' into staging/lineage-20.0_merge-android-13.0.0_r43
-
-   * packages/modules/Wifi
-e09a911 WiFiInfo: Fix crash on google setup wizard
-
-   * packages/providers/TelephonyProvider
-185c629 Merge tag 'android-13.0.0_r43' into staging/lineage-20.0_merge-android-13.0.0_r43
+90f768b crdroid: Add nav bar expanded layout
 
 ====================
-     05-01-2023
+     06-27-2023
 ====================
 
-   * prebuilts/clang/host/linux-x86/clang-latest
-c885130 clang 17.0.1 (based on r487747b)
+   * frameworks/av
+99a9126 Reset staticInfo if static meta fetch fails
 
-   * vendor/addons
-13d31f3 addons: Update themed icons
-
-   * vendor/crowdin
-a580c03 Automatic translation import
+   * packages/apps/Launcher3
+2e8358d Launcher3: Update recents view meminfo string
 
 ====================
-     04-30-2023
+     06-26-2023
+====================
+
+   * frameworks/libs/systemui
+1592883 iconloaderlib: Force themed icon over app monochrome icon
+
+   * hardware/lineage/compat
+d67ae54 compat: Fix ABI issues
+
+====================
+     06-25-2023
+====================
+
+   * packages/apps/GameSpace
+6fef568 Revert "GameSpace: Remove unimplemented method from Danmaku service"
+
+====================
+     06-24-2023
 ====================
 
 ====================
-     04-29-2023
+     06-23-2023
 ====================
 
-   * build/soong
-5602e81 soong: Whitelist python3.11
+   * packages/apps/ThemePicker
+b16dfca ThemePicker: Fix crash choosing Live Wallpapers
 
 ====================
-     04-28-2023
+     06-22-2023
 ====================
 
-   * external/harfbuzz_ng
-d396d69 Update HarfBuzz to 7.2.0
+   * hardware/google/pixel
+6542e10 Temporarily disable lineage health HAL
 
-   * vendor/qcom/opensource/fm-commonsys
-ef61811 FM2: Slight design adjustments
+   * packages/apps/Aperture
+aca4ae5 Aperture: Inherit aapt_version_code_defaults
 
-====================
-     04-27-2023
-====================
-
-   * bionic
-0c10394 Nullability check for modules in the netinet directory.
+   * packages/services/Telecomm
+aaa3f57 InCallController: use click & double click effect for connect and disconnect
 
 ====================
-     04-26-2023
+     06-21-2023
 ====================
 
