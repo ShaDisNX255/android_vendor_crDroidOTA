@@ -1,131 +1,145 @@
 ====================
-     07-12-2023
+     08-14-2023
 ====================
 
-   * external/setupcompat
-c27c562 Merge 'lineage-20.0' into 13.0
+   * frameworks/av
+8a718be C2BqPool: Expire waiters on Surface switching
 
    * frameworks/base
-eac53292 Revert "base: Grant NETWORK_STACK permissions for Dialer"
+4b3ff047 Prevent NPE and try to recover
 
-   * hardware/lineage/interfaces
-d45ed1f Merge 'lineage-20.0' into 13.0
+   * frameworks/native
+1fb0ca1 Use a single otapreopt_chroot invocation for all otapreopt runs.
 
-   * packages/apps/Updater
-a043607 Adapt for our use
-e5ba631 Updater: Fix layout for added info
+   * frameworks/opt/net/ims
+a819e6b Fix, DeviceCapabilityListener does not try to register IMS registration callback.
+
+   * packages/apps/Launcher3
+2bbab66 Fix kotlin nullable errors in Launcher3
+
+   * system/sepolicy
+b098ab1 Allow otapreopt_chroot to use stdin and stdout pipes.
 
 ====================
-     07-11-2023
+     08-13-2023
 ====================
 
    * android
-c1a617c Merge 'lineage-20.0' into 13.0
+a874678 Merge 'lineage-20.0' into 13.0
 
    * art
-069955a Fix bound space bitmap assertion
+77274ee art: Add support for Cortex-A510
 
    * build/make
-b7580a7 Merge 'lineage-20.0' into 13.0
+4a8bcd9 Add armv9-a arch variant.
 
    * build/soong
-baba66b Merge 'lineage-20.0' into 13.0
+20ebdab Introduce Cortex-A510 CPU variant
 
-   * frameworks/av
-6ec853a stagefright: avoid crash when histogram option is used
+   * device/lineage/sepolicy
+ddd32ed Merge 'lineage-20.0' into 13.0
+
+   * hardware/interfaces
+3ecf049 Merge 'lineage-20.0' into 13.0
 
    * lineage-sdk
-fe06001 Merge 'lineage-20.0' into 13.0
+3cee5ee Merge 'lineage-20.0' into 13.0
 
    * packages/apps/Backgrounds
-e3c534e Merge 'lineage-20.0' into 13.0
-
-   * packages/apps/Contacts
-2c30406 Merge 'lineage-20.0' into 13.0
+19e4795 Merge 'lineage-20.0' into 13.0
 
    * packages/apps/DeskClock
-4088b64 Merge 'lineage-20.0' into 13.0
+3cfcdff Merge 'lineage-20.0' into 13.0
 
    * packages/apps/Dialer
-7bcaaee Merge 'lineage-20.0' into 13.0
-
-   * packages/apps/Eleven
-84bc324 Merge 'lineage-20.0' into 13.0
+8f720a1 Merge 'lineage-20.0' into 13.0
 
    * packages/apps/LineageParts
-da17a70 Use ListPreference for charging control fragment
-
-   * packages/apps/Messaging
-ec4c39c Merge 'lineage-20.0' into 13.0
+d930b1e Use ListPreference for charging control fragment
 
    * packages/apps/Settings
-81d88bf Settings: fix app lock allow biometric toggle ignored (always on)
+44a9212 Merge 'lineage-20.0' into 13.0
 
    * packages/apps/SetupWizard
-ef1db23 Move navigation settings to the end
+2ce0ebb Merge 'lineage-20.0' into 13.0
 
-   * packages/apps/ThemePicker
-1eeda73 Merge 'lineage-20.0' into 13.0
-
-   * packages/inputmethods/LatinIME
-f708a15 Merge 'lineage-20.0' into 13.0
-
-   * packages/modules/Wifi
-11d34fb Merge 'lineage-20.0' into 13.0
+   * packages/services/Telecomm
+4e87a27 Merge 'lineage-20.0' into 13.0
 
    * system/core
-bf1e871 init: simplify queue_fs_event()
+22b13d9 Merge 'lineage-20.0' into 13.0
+
+   * system/update_engine
+bdc095f Allow empty version on partial updates
 
    * vendor/lineage
-4251ff2 crdroid: Bump to version 9.7
+b46950f crdroid: Bump to version 9.8
 
 ====================
-     07-10-2023
+     08-12-2023
 ====================
 
 ====================
-     07-09-2023
+     08-11-2023
+====================
+
+   * hardware/qcom-caf/wlan
+1dd1fe0 wcnss-service: Restore OSS building functionality
+
+====================
+     08-10-2023
+====================
+
+   * packages/apps/crDroidSettings
+7a1ad8f New Crowdin updates (#1066)
+
+====================
+     08-09-2023
+====================
+
+   * packages/providers/TelephonyProvider
+72419e3 Merge tag 'android-13.0.0_r67' into staging/lineage-20.0_merge-android-13.0.0_r67
+
+====================
+     08-08-2023
+====================
+
+====================
+     08-07-2023
+====================
+
+   * packages/apps/Aperture
+54fab97 Automatic translation import
+
+   * packages/apps/Jelly
+8f785f2 Automatic translation import
+
+   * packages/apps/Recorder
+32001be Automatic translation import
+
+====================
+     08-06-2023
+====================
+
+   * packages/inputmethods/LatinIME
+02ac38a LatinIME: Default to Material You theme
+
+====================
+     08-05-2023
 ====================
 
    * bootable/recovery
-b917b53 Merge 'lineage-20.0' into 13.0
+a1062d5 Merge 'lineage-20.0' into 13.0
 
-   * device/lineage/sepolicy
-20f47ea lineage: Make Health service discoverable by Settings app
+   * external/chromium-webview/prebuilt/arm
+75fb96b Update Chromium Webview arm prebuilt to 115.0.5790.166
 
-====================
-     07-08-2023
-====================
+   * external/chromium-webview/prebuilt/arm64
+d80e3cd Update Chromium Webview arm64 prebuilt to 115.0.5790.166
 
-   * frameworks/native
-0d1f2b8 Add pending command buffer reset
+   * external/chromium-webview/prebuilt/x86
+9060a16 Update Chromium Webview x86 prebuilt to 115.0.5790.166
 
-   * packages/apps/Launcher3
-d877771 Fixing syntax error due to java-version changes
-
-====================
-     07-07-2023
-====================
-
-====================
-     07-06-2023
-====================
-
-====================
-     07-05-2023
-====================
-
-====================
-     07-04-2023
-====================
-
-   * packages/apps/GameSpace
-2b14818 New translations (#48)
-
-   * packages/apps/crDroidSettings
-dd2079d New Crowdin updates (#1059)
-
-====================
-     07-03-2023
-====================
+   * external/chromium-webview/prebuilt/x86_64
+015e404 Update Chromium Webview x86_64 prebuilt to 115.0.5790.166
 
