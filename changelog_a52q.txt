@@ -1,130 +1,151 @@
 ====================
-     10-17-2023
-====================
-
-====================
-     10-16-2023
+     11-15-2023
 ====================
 
    * packages/apps/Updater
-de6a15e Adapt for our use
+8882c83 Adapt for our use
 
 ====================
-     10-15-2023
+     11-14-2023
 ====================
 
-   * frameworks/av
-4a40efd Bugfix: MPEG4Extractor crashes on DV profile 12 negative case
+   * packages/apps/crDroidSettings
+74b6dca crdroid: QS: Disable brightness slider haptic when no slider
 
-   * packages/apps/Dialer
-1dd9de20 Dialer: Bring back merge calls
-
-   * packages/apps/Settings
-982baf4 Settings: Add app lock summary for 0 protected apps
-
-   * packages/modules/Bluetooth
-f15b09c Prevent from SQLiteException of locked databases
+   * vendor/lineage
+4c1db3a Fix changelog generation after repo tool update
 
 ====================
-     10-14-2023
-====================
-
-   * frameworks/base
-a285e277 Revert "SystemUI: Turn less boring headsup whitelist into an overlay"
-
-   * packages/apps/Etar
-1846668 factorise setting FORMAT_SHOW_WEEKDAY
-
-====================
-     10-13-2023
-====================
-
-   * vendor/addons
-cb38eae addons: Update themed icons
-
-====================
-     10-12-2023
-====================
-
-====================
-     10-11-2023
+     11-13-2023
 ====================
 
    * android
-6cd509d Merge 'lineage-20.0' into 13.0
+97ca064 manifest: Untrack devicesettings resources
 
    * build/make
-9b6baef Merge 'lineage-20.0' into 13.0
+5c0225d Add armv9-a arch variant.
 
-   * frameworks/native
-6a4b6f4 Merge 'lineage-20.0' into 13.0
+   * build/soong
+a239464 cc: Enable more features when using armv8.2-a+dotprod
 
-   * hardware/interfaces
-a402b22 Fix the missing std
+   * device/lineage/sepolicy
+08c1e2c Merge 'lineage-20.0' into 13.0
 
-   * hardware/lineage/interfaces
-50d3fcd Merge 'lineage-20.0' into 13.0
+   * external/chromium-webview/patches
+1c25993 Update Chromium Webview to 119.0.6045.134
+
+   * external/chromium-webview/prebuilt/arm
+6d883cf Update Chromium Webview arm prebuilt to 119.0.6045.134
+
+   * external/chromium-webview/prebuilt/arm64
+e92fc5c Update Chromium Webview arm64 prebuilt to 119.0.6045.134
+
+   * external/chromium-webview/prebuilt/x86
+91c9fde Update Chromium Webview x86 prebuilt to 119.0.6045.134
+
+   * external/chromium-webview/prebuilt/x86_64
+2493deb Update Chromium Webview x86_64 prebuilt to 119.0.6045.134
+
+   * frameworks/av
+513b2d2 Merge 'lineage-20.0' into 13.0
+
+   * frameworks/base
+1956df67 New Crowdin updates (#1018)
 
    * lineage-sdk
-80ade17 Merge 'lineage-20.0' into 13.0
+363682f sdk: Do not prevent boot on database downgrade
+
+   * packages/apps/Contacts
+da2d26e Grant Permanent Write Uri Permission
 
    * packages/apps/DeskClock
-7e8229b Merge 'lineage-20.0' into 13.0
+80784b0 Merge 'lineage-20.0' into 13.0
+
+   * packages/apps/Dialer
+2bf9da77 Merge 'lineage-20.0' into 13.0
+
+   * packages/apps/KeyChain
+d90f056 Merge tag 'android-13.0.0_r83' into staging/lineage-20.0_merge-android-13.0.0_r83
+
+   * packages/apps/LineageParts
+6bb8037 Use ListPreference for charging control fragment
 
    * packages/apps/Messaging
-90f864e Messaging: support notification channels
+10b70da Merge 'lineage-20.0' into 13.0
+
+   * packages/apps/Settings
+f47c274 Settings: Remove typo in manifest to fix predictive back
 
    * packages/apps/SetupWizard
-55b5e4f SetupWizard: Bring it on our side
+535169e SetupWizard: Bring it on our side
 
    * packages/apps/ThemePicker
-8205828 Merge 'lineage-20.0' into 13.0
+e7dc50f Merge 'lineage-20.0' into 13.0
 
    * packages/apps/Updater
-4d328c8 Merge 'lineage-20.0' into 13.0
+b85d18c Merge 'lineage-20.0' into 13.0
 
    * packages/inputmethods/LatinIME
-a3c179b Merge 'lineage-20.0' into 13.0
-
-   * packages/modules/Permission
-718089f Merge 'lineage-20.0' into 13.0
-
-   * packages/modules/Wifi
-f42e7e1 Merge 'lineage-20.0' into 13.0
+a27d7c8 Merge 'lineage-20.0' into 13.0
 
    * packages/services/Telecomm
-39305f3 Merge 'lineage-20.0' into 13.0
-
-   * vendor/lineage
-0e3332d crdroid: Bump to version 9.10
+d27f130 Merge 'lineage-20.0' into 13.0
 
 ====================
-     10-10-2023
+     11-12-2023
 ====================
 
-   * device/google/atv
-bec7fb5 atv_base: Include default translations
+   * device/qcom/sepolicy-legacy-um
+dcc4d5a sepolicy: Remove duplicate hwservice_contexts
 
-   * packages/apps/Aperture
-4ad48ce Aperture: Use prebuilt SDK version
+   * frameworks/native
+7bf1a6a Merge 'lineage-20.0' into 13.0
 
-   * packages/apps/Jelly
-f0a7c30 Jelly: Use prebuilt SDK version
-
-   * packages/apps/Recorder
-5e734b2 Recorder: Use prebuilt SDK version
+   * frameworks/opt/telephony
+358f964 Merge 'lineage-20.0' into 13.0
 
 ====================
-     10-09-2023
+     11-11-2023
 ====================
 
    * packages/apps/GameSpace
-37d8868 New Crowdin updates (#52)
+567b186 New Crowdin updates (#54)
 
    * packages/apps/Launcher3
-bbfe569 New Crowdin updates (#364)
+b4455a6 New Crowdin updates (#368)
 
 ====================
-     10-08-2023
+     11-10-2023
+====================
+
+====================
+     11-09-2023
+====================
+
+   * external/webp
+67e8c06 Merge tag 'android-security-13.0.0_r11' into staging/lineage-20.0_merge-android-security-13.0.0_r11
+
+   * packages/modules/DnsResolver
+a2278b6 Merge tag 'android-security-13.0.0_r11' into staging/lineage-20.0_merge-android-security-13.0.0_r11
+
+   * packages/modules/StatsD
+f4cb39c Merge tag 'android-security-13.0.0_r11' into staging/lineage-20.0_merge-android-security-13.0.0_r11
+
+   * packages/providers/TelephonyProvider
+64aa178 Merge tag 'android-security-13.0.0_r11' into staging/lineage-20.0_merge-android-security-13.0.0_r11
+
+   * system/ca-certificates
+d3ca059 Merge tag 'android-security-13.0.0_r11' into staging/lineage-20.0_merge-android-security-13.0.0_r11
+
+====================
+     11-08-2023
+====================
+
+====================
+     11-07-2023
+====================
+
+====================
+     11-06-2023
 ====================
 
