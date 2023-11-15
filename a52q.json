@@ -5,7 +5,7 @@
 			"oem": "Samsung",
 			"device": "Galaxy A52 4G",
 			"filename": "crDroidAndroid-13.0-20231115-a52q-v9.11.zip",
-			"download": "https://sourceforge.net/projects/crdroid/files/a52q/9.x/crDroidAndroid-13.0-20231115-a52q-v9.11.zip/download",
+			"download": "https://github.com/ShaDisNX255/android_vendor_crDroidOTA/releases/download/a52q-v1.9/crDroidAndroid-13.0-20231115-a52q-v9.11.zip",
 			"timestamp": 1700069859,
 			"md5": "6ec92d3c04956f8fbf34a70760799673",
 			"sha256": "20fecfc161156be576ece248cc0300f005a1f9c84cd48a47d847f812c9c4f46c",
